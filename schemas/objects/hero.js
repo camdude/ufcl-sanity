@@ -1,18 +1,19 @@
 export default {
-  name: "callToAction",
+  name: "hero",
   type: "object",
-  title: "Call to Action",
+  title: "Hero",
   fields: [
     {
       name: "heading",
       type: "string",
       title: "Heading",
+      readOnly: true,
     },
     {
-        name: "text",
-        type: "text",
-        title: "Text",
-      },
+      name: "subtitle",
+      type: "text",
+      title: "Subtitle",
+    },
     {
       name: "buttonText",
       type: "string",

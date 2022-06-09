@@ -32,9 +32,9 @@ export default {
       title: "Page Builder",
       of: [
         { type: "textBlock" },
-        { type: "callToAction" },
         { type: "gallery" },
         { type: "form" },
+        { type: "hero" },
       ],
       validation: (Rule) => {
         return Rule.required();

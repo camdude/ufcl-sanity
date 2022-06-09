@@ -1,4 +1,5 @@
 import { H1, H2, H3, H4, H5, H6 } from "../documents/pageStyles";
+import button from "./button";
 
 export default {
   name: "textBlock",
@@ -6,9 +7,12 @@ export default {
   title: "Text Block",
   fields: [
     {
-      name: "heading",
+      name: "colour",
       type: "string",
-      title: "Heading",
+      title: "Background Colour",
+      options: {
+        list: ["primary", "secondary", "tertiary", "white", "grey", "black"],
+      },
     },
     {
       name: "content",
@@ -85,6 +89,7 @@ export default {
             ],
           },
         },
+        button,
       ],
     },
   ],
