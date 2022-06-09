@@ -20,5 +20,11 @@ export default {
       title: "Sections",
       of: [{ type: "navigation.section" }],
     },
+    {
+      type: 'reference',
+      name: "homepage",
+      title: "Homepage",
+      to: [{ type: 'page' }],
+    },
   ],
 };

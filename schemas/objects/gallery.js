@@ -4,6 +4,19 @@ export default {
   title: "Gallery",
   fields: [
     {
+      name: 'heading',
+      type: 'string',
+      title: 'Heading'
+    },
+    {
+      name: "colour",
+      type: "string",
+      title: "Background Colour",
+      options: {
+        list: ["primary", "secondary", "tertiary", "white", "grey", "black"],
+      },
+    },
+    {
       name: "images",
       type: "array",
       title: "Images",

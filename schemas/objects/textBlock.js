@@ -7,14 +7,6 @@ export default {
   title: "Text Block",
   fields: [
     {
-      name: "colour",
-      type: "string",
-      title: "Background Colour",
-      options: {
-        list: ["primary", "secondary", "tertiary", "white", "grey", "black"],
-      },
-    },
-    {
       name: "content",
       title: "Content",
       type: "array",
@@ -91,6 +83,14 @@ export default {
         },
         button,
       ],
+    },
+    {
+      name: "colour",
+      type: "string",
+      title: "Background Colour",
+      options: {
+        list: ["primary", "secondary", "tertiary", "white", "grey", "black"],
+      },
     },
   ],
 };

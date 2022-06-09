@@ -10,9 +10,8 @@ const headings = {
 
 export function H1(props) {
   const style = {
-    fontSize: "3rem",
+    fontSize: "1.5rem",
     textTransform: "capitalize",
-    color: "#c69609",
   };
 
   return <h1 style={{ ...headings, ...style }}>{props.children}</h1>;
@@ -20,9 +19,8 @@ export function H1(props) {
 
 export function H2(props) {
   const style = {
-    fontSize: "2.5rem",
+    fontSize: "1rem",
     textTransform: "capitalize",
-    color: "#1d262a",
   };
 
   return <h2 style={{ ...headings, ...style }}>{props.children}</h2>;
@@ -30,9 +28,8 @@ export function H2(props) {
 
 export function H3(props) {
   const style = {
-    fontSize: "2rem",
+    fontSize: "1rem",
     textTransform: "capitalize",
-    color: "#5e5e5e",
   };
 
   return <h3 style={{ ...headings, ...style }}>{props.children}</h3>;
@@ -40,9 +37,8 @@ export function H3(props) {
 
 export function H4(props) {
   const style = {
-    fontSize: "1.8rem",
+    fontSize: "0.9rem",
     textTransform: "capitalize",
-    color: "#353535",
   };
 
   return <h4 style={{ ...headings, ...style }}>{props.children}</h4>;
@@ -50,10 +46,9 @@ export function H4(props) {
 
 export function H5(props) {
   const style = {
-    fontSize: "1.6rem",
+    fontSize: "0.6rem",
     fontStyle: "italic",
     textTransform: "capitalize",
-    color: "#c69609",
   };
 
   return <h5 style={{ ...headings, ...style }}>{props.children}</h5>;
@@ -61,10 +56,9 @@ export function H5(props) {
 
 export function H6(props) {
   const style = {
-    fontSize: "1.4rem",
+    fontSize: "0.7rem",
     fontWeight: "500",
     textTransform: "capitalize",
-    color: "#5e5e5e",
   };
 
   return <h6 style={{ ...headings, ...style }}>{props.children}</h6>;
